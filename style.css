@@ -2,18 +2,17 @@ body{
     background-color: #e8efeb;text-align: center;font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size: 24px; font-style: normal;
   }
 body
-{
+{margin: auto;
 }
 .h1
-{
-    margin: 0 auto 0 auto;text-align: center;left: 33%;right: 33%;width: 15%;
+{display: block;
+    margin: auto;text-align: center;
 }
 .profile1
 {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 125px;margin-top: 15px;
+ 
+  width: 125px;margin: auto;margin-top: 15px;
 }
 .hi{
     font-size: 2.5rem;
@@ -72,14 +71,15 @@ body
       }
   .btn
   {left:100%;
-      text-align:center;display: block;position: -webkit-sticky; /* Safari */
+      text-align:center;display: block;position:-webkit-sticky; /* Safari */position: -webkit-sticky;
       position: sticky;
-      top: 0;border: 3p solid red;border-radius: 8px;background-color: #999b84;
+      top: 0;border: 3p solid red;border-radius: 8px;background-color: #999b84;display: block;
       font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; font-size:15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;color: #000; 
       width:15%;
       opacity: .5;
       top: 10%;
-    
+    right: 0px;
+
       
 
   }
@@ -90,4 +90,13 @@ body
   .c
   {
       text-align: center;
+  }
+  .computer
+  {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .computer
+  {
+    margin: auto;  
   }
