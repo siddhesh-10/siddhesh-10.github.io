@@ -91,12 +91,8 @@ body
   {
       text-align: center;
   }
+ 
   .computer
-  {
-      margin-left: auto;
-      margin-right: auto;
-  }
-  .computer
-  {
+  {width: 50%;
     margin: auto;  
   }
